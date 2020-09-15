@@ -73,12 +73,12 @@ All URIs are relative to *https://live.api.otto.market/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ShipmentsApi* | [**appendPositionItemsByCarrierAndTrackingNumberUsingPOST**](docs/Api/ShipmentsApi.md#appendpositionitemsbycarrierandtrackingnumberusingpost) | **POST** /shipments/carriers/{carrier}/trackingnumbers/{trackingNumber}/positionitems | 
-*ShipmentsApi* | [**appendPositionItemsUsingPOST**](docs/Api/ShipmentsApi.md#appendpositionitemsusingpost) | **POST** /shipments/{shipmentId}/positionitems | 
-*ShipmentsApi* | [**createdAndSentShipmentUsingPOST**](docs/Api/ShipmentsApi.md#createdandsentshipmentusingpost) | **POST** /shipments | 
-*ShipmentsApi* | [**listShipmentsUsingGET**](docs/Api/ShipmentsApi.md#listshipmentsusingget) | **GET** /shipments | 
-*ShipmentsApi* | [**shipmentByCarrierAndTrackingNumberUsingGET**](docs/Api/ShipmentsApi.md#shipmentbycarrierandtrackingnumberusingget) | **GET** /shipments/carriers/{carrier}/trackingnumbers/{trackingNumber} | 
-*ShipmentsApi* | [**shipmentUsingGET**](docs/Api/ShipmentsApi.md#shipmentusingget) | **GET** /shipments/{shipmentId} | 
+*ShipmentsApi* | [**appendPositionItemsByCarrierAndTrackingNumberUsingPOST**](docs/Api/ShipmentsApi.md#appendpositionitemsbycarrierandtrackingnumberusingpost) | **POST** /v1/shipments/carriers/{carrier}/trackingnumbers/{trackingNumber}/positionitems | 
+*ShipmentsApi* | [**appendPositionItemsUsingPOST**](docs/Api/ShipmentsApi.md#appendpositionitemsusingpost) | **POST** /v1/shipments/{shipmentId}/positionitems | 
+*ShipmentsApi* | [**createdAndSentShipmentUsingPOST**](docs/Api/ShipmentsApi.md#createdandsentshipmentusingpost) | **POST** /v1/shipments | 
+*ShipmentsApi* | [**listShipmentsUsingGET**](docs/Api/ShipmentsApi.md#listshipmentsusingget) | **GET** /v1/shipments | 
+*ShipmentsApi* | [**shipmentByCarrierAndTrackingNumberUsingGET**](docs/Api/ShipmentsApi.md#shipmentbycarrierandtrackingnumberusingget) | **GET** /v1/shipments/carriers/{carrier}/trackingnumbers/{trackingNumber} | 
+*ShipmentsApi* | [**shipmentUsingGET**](docs/Api/ShipmentsApi.md#shipmentusingget) | **GET** /v1/shipments/{shipmentId} | 
 
 ## Documentation For Shipments API Models
 
