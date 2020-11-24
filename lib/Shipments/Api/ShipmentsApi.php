@@ -918,16 +918,13 @@ class ShipmentsApi
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
-        
-        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
-        if ($apiKey !== null) {
-            $headers['Authorization'] = $apiKey;
-        }
 
         $apiKey = $this->config->getApiKeyWithPrefix('access_token');
         if ($apiKey !== null) {
             $headers['Authorization'] = $apiKey;
         }
+
+
 
         $headers = array_merge(
             $defaultHeaders,
