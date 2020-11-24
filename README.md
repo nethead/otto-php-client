@@ -69,7 +69,7 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Shipments API Endpoints
 
-All URIs are relative to *https://live.api.otto.market/v1*
+All URIs are relative to *https://live.api.otto.market*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -116,7 +116,7 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Returns API Endpoints
 
-All URIs are relative to *//partner-acl.develop.returns.platform.otto.de/*
+All URIs are relative to *https://live.api.otto.market*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -143,3 +143,36 @@ Class | Method | HTTP request | Description
  - [ReturnTrackingKey](docs/Model/ReturnTrackingKey.md)
  - [ReturnedItemStatusData](docs/Model/ReturnedItemStatusData.md)
  - [ReturnedPositionItem](docs/Model/ReturnedPositionItem.md)
+ 
+ 
+ 
+ ## Documentation for Reciepts API Endpoints
+ 
+ All URIs are relative to *https://live.api.otto.market*
+ 
+ Class | Method | HTTP request | Description
+ ------------ | ------------- | ------------- | -------------
+ *ReceiptsApi* | [**getReceiptPdfUsingGET3**](docs/Api/ReceiptsApi.md#getreceiptpdfusingget3) | **GET** /v2/receipts/{receiptNumber}.pdf | Get the PDF document of a specific receipt by receipt number.
+ *ReceiptsApi* | [**getReceiptUsingGET5**](docs/Api/ReceiptsApi.md#getreceiptusingget5) | **GET** /v2/receipts/{receiptNumber} | Get a specific receipt for the given receipt number as JSON object
+ *ReceiptsApi* | [**getReceiptsUsingGET5**](docs/Api/ReceiptsApi.md#getreceiptsusingget5) | **GET** /v2/receipts | Get all receipts as list of JSON objects
+ 
+ ## Documentation For Reciepts Models
+ 
+  - [AllOfLineItemTotal](docs/Model/AllOfLineItemTotal.md)
+  - [AllOfLineItemUnitPrice](docs/Model/AllOfLineItemUnitPrice.md)
+  - [AllOfPartialRefundPartialRefundAmount](docs/Model/AllOfPartialRefundPartialRefundAmount.md)
+  - [AllOfShippingFeePrice](docs/Model/AllOfShippingFeePrice.md)
+  - [AllOfTotalAmountDue](docs/Model/AllOfTotalAmountDue.md)
+  - [AllOfTotalGross](docs/Model/AllOfTotalGross.md)
+  - [AllOfTotalNet](docs/Model/AllOfTotalNet.md)
+  - [Customer](docs/Model/Customer.md)
+  - [DeliveryAddress](docs/Model/DeliveryAddress.md)
+  - [LineItem](docs/Model/LineItem.md)
+  - [Link](docs/Model/Link.md)
+  - [PartialRefund](docs/Model/PartialRefund.md)
+  - [Partner](docs/Model/Partner.md)
+  - [Receipt](docs/Model/Receipt.md)
+  - [ReceiptsList](docs/Model/ReceiptsList.md)
+  - [ShippingCost](docs/Model/ShippingCost.md)
+  - [ShippingFee](docs/Model/ShippingFee.md)
+  - [Total](docs/Model/Total.md)

@@ -357,6 +357,11 @@ class ShipmentsApi
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
 
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
+        }
+
         $headers = array_merge(
             $defaultHeaders,
             $headerParams,
@@ -622,6 +627,11 @@ class ShipmentsApi
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
         }
 
         $headers = array_merge(
@@ -909,6 +919,11 @@ class ShipmentsApi
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
 
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
+        }
+
         $headers = array_merge(
             $defaultHeaders,
             $headerParams,
@@ -1187,6 +1202,11 @@ class ShipmentsApi
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
         }
 
         $headers = array_merge(
@@ -1490,6 +1510,11 @@ class ShipmentsApi
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
 
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
+        }
+
         $headers = array_merge(
             $defaultHeaders,
             $headerParams,
@@ -1770,6 +1795,11 @@ class ShipmentsApi
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+
+        $apiKey = $this->config->getApiKeyWithPrefix('access_token');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
         }
 
         $headers = array_merge(
