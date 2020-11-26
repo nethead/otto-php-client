@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Otto\Client\Receipt\Model;
+namespace Otto\Client\Receipts\Model;
 
 use \ArrayAccess;
 use \Otto\Client\ObjectSerializer;
