@@ -176,3 +176,59 @@ Class | Method | HTTP request | Description
   - [ShippingCost](docs/Model/ShippingCost.md)
   - [ShippingFee](docs/Model/ShippingFee.md)
   - [Total](docs/Model/Total.md)
+
+## Documentation for API Endpoints
+
+All URIs are relative to */*
+
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*BrandsApi* | [**getBrands**](docs/Api/BrandsApi.md#getbrands) | **GET** /v2/products/brands | Read the list of brands that are known on the Otto market place.
+*CategoriesApi* | [**getCategoryGroups**](docs/Api/CategoriesApi.md#getcategorygroups) | **GET** /v2/products/categories | Read the product categories and associated attributes of the OTTO market place. The total number of results could be limited by specifying query parameters. Generally the resulting product categories values will be paginated. The default page length is 100 product categories per response, the page size limit is 2000. The links specified in the result can be used to page through the total result space.
+*MarketplaceStatusApi* | [**getMarketPlaceStatus**](docs/Api/MarketplaceStatusApi.md#getmarketplacestatus) | **GET** /v2/products/{sku}/marketplace-status | Read the marketplace status for a single product variation.
+*MarketplaceStatusApi* | [**getMarketPlaceStatusList**](docs/Api/MarketplaceStatusApi.md#getmarketplacestatuslist) | **GET** /v2/products/marketplace-status | Read the marketplace status for your product variations. The total number of results could be limited by specifying query parameters. Generally the resulting marketplace status will be paginated. The default page length is 100 product variations per response, also the page size limit. The links specified in the result can be used to page through the total result space.
+*ProductActiveStatusApi* | [**getActiveStatus**](docs/Api/ProductActiveStatusApi.md#getactivestatus) | **GET** /v2/products/active-status | Read the active status of your product variations. The total number of results could be limited by specifying query parameters. Generally the resulting active status values will be paginated. The default page length is 100 active status entries per response, also the page size limit. The links specified in the result can be used to page through the total result space. Replaces corresponding online-status endpoint which now is marked as deprecated.
+*ProductActiveStatusApi* | [**getVariationActiveStatus**](docs/Api/ProductActiveStatusApi.md#getvariationactivestatus) | **GET** /v2/products/{sku}/active-status | Read the active status of a single product variation. Replaces corresponding online-status endpoint which now is marked as deprecated.
+*ProductActiveStatusApi* | [**updateActiveStatus**](docs/Api/ProductActiveStatusApi.md#updateactivestatus) | **POST** /v2/products/active-status | Update the active status of your product variations and get a process-id to query results.
+*ProductsApi* | [**createOrUpdateProductVariations**](docs/Api/ProductsApi.md#createorupdateproductvariations) | **POST** /v2/products | Create or update your product variations and get a process-id to query results. The limit for the number of product variations in one request is 500.
+*ProductsApi* | [**failedByProcessId**](docs/Api/ProductsApi.md#failedbyprocessid) | **GET** /v2/products/update-tasks/{processUuid}/failed | Request the failed products of the product data delivery with the linked processUuid. The response will contain a list of failed products with associated error details.
+*ProductsApi* | [**getPartnerProducts**](docs/Api/ProductsApi.md#getpartnerproducts) | **GET** /v2/products | Read your product variations. The total number of results could be limited by specifying query parameters. Generally the resulting product variations will be paginated. The default page length is 100 product variations per response, also the page size limit. The links specified in the result can be used to page through the total result space.
+*ProductsApi* | [**getProductVariation**](docs/Api/ProductsApi.md#getproductvariation) | **GET** /v2/products/{sku} | Read a single product variation.
+*ProductsApi* | [**progressByProcessId**](docs/Api/ProductsApi.md#progressbyprocessid) | **GET** /v2/products/update-tasks/{processUuid} | Request the results of a product data delivery. The response will contain the links for the different parts of the result: products successfully created or updated, products with failures, products which did not contain any changes compared to the last sent version.
+*ProductsApi* | [**succeededByProcessId**](docs/Api/ProductsApi.md#succeededbyprocessid) | **GET** /v2/products/update-tasks/{processUuid}/succeeded | Request the succeeded products of the product data delivery with the linked processUuid. The response will contain a list of successfully delivered products.
+*ProductsApi* | [**unchangedByProcessId**](docs/Api/ProductsApi.md#unchangedbyprocessid) | **GET** /v2/products/update-tasks/{processUuid}/unchanged | Request the unchanged products of the product data delivery with the linked processUuid. The response will contain a list of unchanged products.
+
+## Documentation For Models
+
+- [ActiveStatus](docs/Model/ActiveStatus.md)
+- [ActiveStatusListRequest](docs/Model/ActiveStatusListRequest.md)
+- [ActiveStatusListResponse](docs/Model/ActiveStatusListResponse.md)
+- [AdditionalRequirement](docs/Model/AdditionalRequirement.md)
+- [Attribute](docs/Model/Attribute.md)
+- [AttributeDefinition](docs/Model/AttributeDefinition.md)
+- [Brand](docs/Model/Brand.md)
+- [CategoryGroup](docs/Model/CategoryGroup.md)
+- [CategoryGroups](docs/Model/CategoryGroups.md)
+- [Condition](docs/Model/Condition.md)
+- [Delivery](docs/Model/Delivery.md)
+- [Link](docs/Model/Link.md)
+- [Logistics](docs/Model/Logistics.md)
+- [MarketPlaceStatus](docs/Model/MarketPlaceStatus.md)
+- [MarketPlaceStatusApiResult](docs/Model/MarketPlaceStatusApiResult.md)
+- [MarketPlaceStatusError](docs/Model/MarketPlaceStatusError.md)
+- [MarketPlaceStatusLink](docs/Model/MarketPlaceStatusLink.md)
+- [MediaAsset](docs/Model/MediaAsset.md)
+- [MonetaryAmount](docs/Model/MonetaryAmount.md)
+- [NormPriceInfo](docs/Model/NormPriceInfo.md)
+- [PackingUnit](docs/Model/PackingUnit.md)
+- [Pricing](docs/Model/Pricing.md)
+- [ProductDescription](docs/Model/ProductDescription.md)
+- [ProductLink](docs/Model/ProductLink.md)
+- [ProductProcessProgress](docs/Model/ProductProcessProgress.md)
+- [ProductProcessResult](docs/Model/ProductProcessResult.md)
+- [ProductProcessResultLink](docs/Model/ProductProcessResultLink.md)
+- [ProductProcessTaskError](docs/Model/ProductProcessTaskError.md)
+- [ProductProcessTaskResult](docs/Model/ProductProcessTaskResult.md)
+- [ProductVariation](docs/Model/ProductVariation.md)
+- [ProductVariationApiResult](docs/Model/ProductVariationApiResult.md)
+- [Sale](docs/Model/Sale.md)
