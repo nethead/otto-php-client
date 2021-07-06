@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * ProductProcessTaskErrorTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * ProductProcessTaskErrorTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description ProductProcessTaskError
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class ProductProcessTaskErrorTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,44 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "ProductProcessTaskError"
      */
-    public function testLink()
+    public function testProductProcessTaskError()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "code"
      */
-    public function testPropertyRel()
+    public function testPropertyCode()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "title"
      */
-    public function testPropertyHref()
+    public function testPropertyTitle()
+    {
+    }
+
+    /**
+     * Test attribute "path"
+     */
+    public function testPropertyPath()
+    {
+    }
+
+    /**
+     * Test attribute "json_path"
+     */
+    public function testPropertyJsonPath()
+    {
+    }
+
+    /**
+     * Test attribute "logref"
+     */
+    public function testPropertyLogref()
     {
     }
 }

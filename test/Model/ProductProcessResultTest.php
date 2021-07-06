@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * ProductProcessResultTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * ProductProcessResultTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description ProductProcessResult
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class ProductProcessResultTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,16 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "ProductProcessResult"
      */
-    public function testLink()
+    public function testProductProcessResult()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "results"
      */
-    public function testPropertyRel()
-    {
-    }
-
-    /**
-     * Test attribute "href"
-     */
-    public function testPropertyHref()
+    public function testPropertyResults()
     {
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * ActiveStatusListResponseTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * ActiveStatusListResponseTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description ActiveStatusListResponse
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class ActiveStatusListResponseTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,23 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "ActiveStatusListResponse"
      */
-    public function testLink()
+    public function testActiveStatusListResponse()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "status"
      */
-    public function testPropertyRel()
+    public function testPropertyStatus()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "links"
      */
-    public function testPropertyHref()
+    public function testPropertyLinks()
     {
     }
 }

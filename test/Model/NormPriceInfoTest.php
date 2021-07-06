@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * NormPriceInfoTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * NormPriceInfoTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description The information about normed prices, must be provided completely, or not at all. The representation of the normprice have to contain from the following values for normAmount and normUnit: 1 pcs,1 sqm,1 kg,1 l,1 m,100 ml,100 g,1 g,1000 g,1 pair,1 RM,1 dm3.
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class NormPriceInfoTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,37 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "NormPriceInfo"
      */
-    public function testLink()
+    public function testNormPriceInfo()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "norm_amount"
      */
-    public function testPropertyRel()
+    public function testPropertyNormAmount()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "norm_unit"
      */
-    public function testPropertyHref()
+    public function testPropertyNormUnit()
+    {
+    }
+
+    /**
+     * Test attribute "sales_amount"
+     */
+    public function testPropertySalesAmount()
+    {
+    }
+
+    /**
+     * Test attribute "sales_unit"
+     */
+    public function testPropertySalesUnit()
     {
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * CategoryGroupsTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * CategoryGroupsTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description CategoryGroups
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class CategoryGroupsTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,23 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "CategoryGroups"
      */
-    public function testLink()
+    public function testCategoryGroups()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "category_groups"
      */
-    public function testPropertyRel()
+    public function testPropertyCategoryGroups()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "links"
      */
-    public function testPropertyHref()
+    public function testPropertyLinks()
     {
     }
 }

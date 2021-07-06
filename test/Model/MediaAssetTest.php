@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * MediaAssetTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * MediaAssetTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description MediaAsset
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class MediaAssetTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,23 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "MediaAsset"
      */
-    public function testLink()
+    public function testMediaAsset()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "type"
      */
-    public function testPropertyRel()
+    public function testPropertyType()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "location"
      */
-    public function testPropertyHref()
+    public function testPropertyLocation()
     {
     }
 }

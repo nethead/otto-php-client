@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * AdditionalRequirementTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * AdditionalRequirementTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description AdditionalRequirement
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class AdditionalRequirementTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,51 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "AdditionalRequirement"
      */
-    public function testLink()
+    public function testAdditionalRequirement()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "name"
      */
-    public function testPropertyRel()
+    public function testPropertyName()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "json_path"
      */
-    public function testPropertyHref()
+    public function testPropertyJsonPath()
+    {
+    }
+
+    /**
+     * Test attribute "description"
+     */
+    public function testPropertyDescription()
+    {
+    }
+
+    /**
+     * Test attribute "reference"
+     */
+    public function testPropertyReference()
+    {
+    }
+
+    /**
+     * Test attribute "condition"
+     */
+    public function testPropertyCondition()
+    {
+    }
+
+    /**
+     * Test attribute "feature_relevance"
+     */
+    public function testPropertyFeatureRelevance()
     {
     }
 }

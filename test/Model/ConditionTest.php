@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * ConditionTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * ConditionTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description Condition
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class ConditionTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,30 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "Condition"
      */
-    public function testLink()
+    public function testCondition()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "name"
      */
-    public function testPropertyRel()
+    public function testPropertyName()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "json_path"
      */
-    public function testPropertyHref()
+    public function testPropertyJsonPath()
+    {
+    }
+
+    /**
+     * Test attribute "value"
+     */
+    public function testPropertyValue()
     {
     }
 }

@@ -177,7 +177,7 @@ Class | Method | HTTP request | Description
   - [ShippingFee](docs/Model/ShippingFee.md)
   - [Total](docs/Model/Total.md)
 
-## Documentation for API Endpoints
+## Documentation for Products API Endpoints
 
 All URIs are relative to */*
 
@@ -198,7 +198,7 @@ Class | Method | HTTP request | Description
 *ProductsApi* | [**succeededByProcessId**](docs/Api/ProductsApi.md#succeededbyprocessid) | **GET** /v2/products/update-tasks/{processUuid}/succeeded | Request the succeeded products of the product data delivery with the linked processUuid. The response will contain a list of successfully delivered products.
 *ProductsApi* | [**unchangedByProcessId**](docs/Api/ProductsApi.md#unchangedbyprocessid) | **GET** /v2/products/update-tasks/{processUuid}/unchanged | Request the unchanged products of the product data delivery with the linked processUuid. The response will contain a list of unchanged products.
 
-## Documentation For Models
+## Documentation For Products Models
 
 - [ActiveStatus](docs/Model/ActiveStatus.md)
 - [ActiveStatusListRequest](docs/Model/ActiveStatusListRequest.md)
@@ -232,3 +232,20 @@ Class | Method | HTTP request | Description
 - [ProductVariation](docs/Model/ProductVariation.md)
 - [ProductVariationApiResult](docs/Model/ProductVariationApiResult.md)
 - [Sale](docs/Model/Sale.md)
+
+
+
+## Documentation for Quantity API Endpoints
+
+All URIs are relative to *https://live.api.otto.market/*
+
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*AvailableQuantityApi* | [**storeAvailableQuantitiesUsingPOST**](docs/Api/AvailableQuantityApi.md#storeavailablequantitiesusingpost) | **POST** /v2/quantities | Update the available quantity for a specific SKU (up to 200 SKUs per request)
+
+## Documentation For Quantity Models
+
+- [ApiErrorResponseV2](docs/Model/ApiErrorResponseV2.md)
+- [ApiErrorV2](docs/Model/ApiErrorV2.md)
+- [AvailableQuantityRequestDTOV2](docs/Model/AvailableQuantityRequestDTOV2.md)
+- [UpdateQuantityMultiStatusResponse](docs/Model/UpdateQuantityMultiStatusResponse.md)

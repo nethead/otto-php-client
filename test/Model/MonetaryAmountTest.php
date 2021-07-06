@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * MonetaryAmountTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * MonetaryAmountTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description MonetaryAmount
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class MonetaryAmountTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,23 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "MonetaryAmount"
      */
-    public function testLink()
+    public function testMonetaryAmount()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "amount"
      */
-    public function testPropertyRel()
+    public function testPropertyAmount()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "currency"
      */
-    public function testPropertyHref()
+    public function testPropertyCurrency()
     {
     }
 }

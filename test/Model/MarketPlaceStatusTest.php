@@ -1,6 +1,6 @@
 <?php
 /**
- * LinkTest
+ * MarketPlaceStatusTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Otto\Client;
 
 /**
- * LinkTest Class Doc Comment
+ * MarketPlaceStatusTest Class Doc Comment
  *
  * @category    Class
- * @description Link
+ * @description MarketPlaceStatus
  * @package     Otto\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class MarketPlaceStatusTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,44 @@ class LinkTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Link"
+     * Test "MarketPlaceStatus"
      */
-    public function testLink()
+    public function testMarketPlaceStatus()
     {
     }
 
     /**
-     * Test attribute "rel"
+     * Test attribute "sku"
      */
-    public function testPropertyRel()
+    public function testPropertySku()
     {
     }
 
     /**
-     * Test attribute "href"
+     * Test attribute "status"
      */
-    public function testPropertyHref()
+    public function testPropertyStatus()
+    {
+    }
+
+    /**
+     * Test attribute "errors"
+     */
+    public function testPropertyErrors()
+    {
+    }
+
+    /**
+     * Test attribute "links"
+     */
+    public function testPropertyLinks()
+    {
+    }
+
+    /**
+     * Test attribute "last_modified"
+     */
+    public function testPropertyLastModified()
     {
     }
 }
