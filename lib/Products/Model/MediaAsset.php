@@ -67,7 +67,8 @@ class MediaAsset implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'type' => null,
-'location' => 'uri'    ];
+'location' => 'uri',
+        'filename' => null];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -97,7 +98,8 @@ class MediaAsset implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'type' => 'type',
-'location' => 'location'    ];
+'location' => 'location',
+        'filename' => 'filename'];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -106,7 +108,8 @@ class MediaAsset implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'type' => 'setType',
-'location' => 'setLocation'    ];
+'location' => 'setLocation',
+        'filename' => 'setFilename'];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -115,7 +118,8 @@ class MediaAsset implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'type' => 'getType',
-'location' => 'getLocation'    ];
+'location' => 'getLocation',
+        'filename' => 'getFilename'];
 
     /**
      * Array of attributes where the key is the local name,
@@ -298,6 +302,31 @@ self::TYPE_WARNING_LABEL,        ];
 
         return $this;
     }
+
+    /**
+     * Gets filename
+     *
+     * @return string
+     */
+    public function getFilename()
+    {
+        return $this->container['filename'];
+    }
+
+    /**
+     * Sets filename
+     *
+     * @param string $filename The partners filename of the media asset as a valid URL. OTTO market will use the link for downloading the media asset and providing to otto.de.
+     *
+     * @return $this
+     */
+    public function setFilename($filename)
+    {
+        $this->container['filename'] = $filename;
+
+        return $this;
+    }
+
     /**
      * Returns true if offset exists. False otherwise.
      *
