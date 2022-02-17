@@ -57,10 +57,10 @@ class TotalReceiptsV2 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'gross' => '\Otto\Client\Receipts\Model\Amount',
-'net' => '\Otto\Client\Receipts\Model\Amount',
-'vat' => '\Otto\Client\Receipts\Model\Amount',
-'amount_due' => '\Otto\Client\Receipts\Model\Amount'    ];
+        'gross' => '\Otto\Client\Model\AmountOrdersV4',
+'net' => '\Otto\Client\Model\AmountOrdersV4',
+'vat' => '\Otto\Client\Model\AmountOrdersV4',
+'amount_due' => '\Otto\Client\Model\AmountOrdersV4'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -230,7 +230,7 @@ class TotalReceiptsV2 implements ModelInterface, ArrayAccess
     /**
      * Gets gross
      *
-     * @return Amount
+     * @return \Otto\Client\Model\AmountOrdersV4
      */
     public function getGross()
     {
@@ -254,7 +254,7 @@ class TotalReceiptsV2 implements ModelInterface, ArrayAccess
     /**
      * Gets net
      *
-     * @return Amount
+     * @return \Otto\Client\Model\AmountOrdersV4
      */
     public function getNet()
     {
@@ -278,7 +278,7 @@ class TotalReceiptsV2 implements ModelInterface, ArrayAccess
     /**
      * Gets vat
      *
-     * @return Amount
+     * @return \Otto\Client\Model\AmountOrdersV4
      */
     public function getVat()
     {
@@ -302,7 +302,7 @@ class TotalReceiptsV2 implements ModelInterface, ArrayAccess
     /**
      * Gets amount_due
      *
-     * @return AllOfTotalReceiptsV2AmountDue
+     * @return \Otto\Client\Model\AmountOrdersV4
      */
     public function getAmountDue()
     {

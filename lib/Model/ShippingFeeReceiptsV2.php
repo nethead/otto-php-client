@@ -58,7 +58,7 @@ class ShippingFeeReceiptsV2 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'vat_rate' => 'float',
-'price' => '\Otto\Client\Receipts\Model\Amount'    ];
+'price' => '\Otto\Client\Model\AmountOrdersV4'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
